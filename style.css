@@ -562,3 +562,81 @@ ul.socialMedia{
         justify-content: center;
     }
 }
+
+/* Media query for 412px */
+@media screen and (max-width: 412px) {
+    .topBar .contact {
+        text-align: center;
+    }
+
+    .topBar .contact a {
+        margin: 10px 0;
+    }
+
+    header {
+        padding: 10px;
+    }
+
+    header .logo {
+        font-size: 18px;
+    }
+
+    header ul li a {
+        margin-left: 10px;
+    }
+
+    .content {
+        width: 100%;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+
+    }
+
+    .content .textBox {
+        width: 70%;
+        text-align: center;
+        flex-basis: 35%;
+    }
+
+    .content .imageBox {
+        flex-basis: 50%;
+        align-self: center;
+        padding-right: 0;
+        margin-top: 10px;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .content .imageBox img{
+        width: 170px;
+        height: auto;
+        border-radius: 15px;
+        margin-right: 15px;
+        right: 0;
+        margin-left: 1px;
+    }
+
+    .thumb {
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 5px;
+    }
+
+    .sci {
+        display: none;
+    }
+
+    footer .form {
+        width: 100%;
+        margin-left: 0;
+    }
+    .circle{
+        clip-path: circle(200px at right);
+    }
+
+    .socialMedia {
+        margin-left: 0;
+        justify-content: center;
+    }
+}
